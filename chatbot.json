@@ -1,0 +1,24 @@
+{"intents": [
+    {"tag": "greeting",
+    "patterns": ["Hi", "Hello", "How are you", "I need help"],
+    "responses": ["Welcome to Microsoft! How can I help?", "Hi there! How can I help?", "How can I help today?", "Nice to meet you! How can we help?"]
+    },
+    {"tag": "firstday",
+        "patterns": ["first day", "start", "new intern"],
+        "responses": ["Meet your team", "Set up your desk", "Learn about your project"]
+    },
+    {"tag": "hours",
+        "patterns": ["hours", "timecard", "work hours", "8am", "5pm", "what time", "how many hours", "how long am I"],
+        "responses": ["The expected time commitment for an intern is 40 hours a week. If you're paid hourly, log your hours at //timecard.",
+                       "Ask your manager to set expectations for what time to start in the morning."]
+    },
+    {"tag": "dresscode",
+        "patterns": ["dress code", "apparel", "what should I wear", "clothes", "attire", "professional attire", "business casual", "shorts", "dresses", "sneakers", "sweatshirt"],
+        "responses": ["You can wear anything casual and comfortable, as long as it's appropriate for the workplace.", "It depends on your position and organization. Talk to your team to see what is appropriate to wear."]
+    },
+    {
+        "tag": "wifi",
+        "patterns": ["wifi", "internet", "connection", "connect", "connect to the internet", "connect to the wifi", "wifi password"],
+        "responses": ["Connect to MSFTCORP and use your credentials to log in. You can connect to the Wi-Fi on your phone by connecting to MSFTGUEST and using your credentials to log in."]
+    }
+]}
